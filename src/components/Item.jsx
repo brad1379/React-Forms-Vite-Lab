@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
 function Item({ name, category }) {
+  // Tracks whether this individual item has been added to the cart.
   const [isInCart, setIsInCart] = useState(false);
 
+  // Toggle the cart status between "in cart" and "not in cart".
   function handleAddToCartClick() {
     setIsInCart((isInCart) => !isInCart);
   }

@@ -1,5 +1,51 @@
 # React Controlled Components Lab
 
+## Project Description
+
+Shopster is a small React + Vite shopping list application. It displays a
+list of grocery items that can be filtered by category and by a search term,
+and lets the user add new items to the list through a controlled form. Each
+item can be toggled in or out of the cart, and the app supports a light/dark
+mode toggle.
+
+## Setup Instructions
+
+1. Clone this repository and navigate into the project folder.
+2. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+4. Open the URL printed in the terminal (typically `http://localhost:5173`)
+   in your browser to view the app.
+
+## Running the Tests
+
+This project uses [Vitest](https://vitest.dev/) along with React Testing
+Library. To run the test suite:
+
+```sh
+npm test
+```
+
+This will run all test files in `src/__tests__` and report whether the
+`Filter` and `ItemForm` components behave as expected.
+
+## Screen shots
+
+Adding Items to Cart
+![Add Items To Cart](src/assets/additemtocart.png)
+
+Searching Items
+![Searching Items](src/assets/searchitems.png)
+
 ## Learning Goals
 
 - Implement a controlled form
